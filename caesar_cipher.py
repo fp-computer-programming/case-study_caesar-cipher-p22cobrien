@@ -1,4 +1,4 @@
-
+# Author: CMOB 4/25/2022
 
 # Imports
 from string import ascii_uppercase
@@ -15,11 +15,16 @@ def cipher_key(shift):
 def shift_line(line, dict_key):
     new_line = ""
     # Add code here
+    
     return new_line
 
 
 def encrypt_message(filename, dict_key):
     # Add code here
+    with open(filename)
+    content = open.filename
+    for line in content:
+        outfile.write(shift_line(line,dict_key))
 
 
 # Main
