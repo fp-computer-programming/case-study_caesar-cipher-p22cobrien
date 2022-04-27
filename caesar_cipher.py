@@ -15,7 +15,8 @@ def cipher_key(shift):
 def shift_line(line, dict_key):
     new_line = ""
     # Add code here
-    
+    for character in line:
+        
     return new_line
 
 
